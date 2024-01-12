@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Carlos Mario Rendon</title>
+    <link rel = "icon" type = "favicon/x-icon" href="img/supertux.png" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div id="logo">
+                <span class="gear">S</span>
+                <h3><a href="#articles" onclick="seleccionar()">BLOG</a></h3>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#tarjetas" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Leonardo_Diffusion_XL_creame_una_imagen_super_futurista_de_un_2.jpg" alt="">
+            </div>
+            <h1>Carlos Mario Rendon</h1>
+            <h2>Desarrollador de Software </h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Carlos Mario Rendon.</span> Como desarrollador web,   poseo una sólida base de habilidades que abarcan desde la creación de sitios web elegantes hasta la implementación de soluciones robustas.   Mi determinación y espíritu de trabajo se reflejan en cada línea de código que escribo. Siempre busco superarme,
+               enfrentar desafíos con entusiasmo y encontrar soluciones efectivas.  Mi ambición constante por mejorar y aprender cada día impulsa mi trayectoria en este apasionante campo.  Estoy comprometido con el éxito y listo para enfrentar cualquier obstáculo que se presente en el camino hacia el crecimiento y la excelencia profesional.</p>
+        </div>
+    </section>
+
+      <!-- SECCION TARJETAS-->
+    <section id="tarjetas" class="tarjetas">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="card">
+                <a href="#"></a>
+                <p class="icon">H</p>
+                <h3 class="category">Desarrollo web</h3>
+                <p class="description">html, css, javascript, nodejs, reactjs</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="#"></a>
+            <p class="icon">_</p>
+            <h3 class="category">Sistemas Operativos</h3>
+            <p class="description">windows, linux, ios</p>
+        </div>
+        <div class="card">
+            <a href="#"></a>
+            <p class="icon">S</p>
+            <h3 class="category">Hardware</h3>
+            <p class="description">componentes eléctricos, electromecánicos</p>
+        </div>
+        <div class="card">
+            <a href="#"></a>
+            <p class="icon">u</p>
+            <h3 class="category">Redes e Internet</h3>
+            <p class="description"></p>
+        </div>
+        <div class="card">
+            <a href="#"></a>
+            <p class="icon">a</p>
+            <h3 class="category">Bases de Datos</h3>
+            <p class="description">MySQL, PostgreSQL, MariaDB, Microsoft SQL Server y Oracle Database.</p>
+        </div>
+    </section>
+   
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/blogger.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/javascript.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/desarrollador.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/react.png" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/css3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/api.png" alt="">
+                    <div class="overlay">
+                        <h3>DESAROLLO WEB</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION ARTICLES -->
+
+    <section id="articles">
+        <div class="contenido-seccion">
+            <h2>Articulos</h2>
+        </div>
+        <article>
+            <div class="data">
+                <span>fecha: 08 JUN 2023 </span>
+                <span>Fuente: EL PAÍS</span>
+            </div>
+            <h4>
+                <a href="#">¿el fin de los programadores?</a>
+            </h4>
+            <p>¿Supone ChatGPT el fin de los programadores? “Los hará más eficientes en lugar de reemplazarlos”:Una inteligencia artificial de DeepMind logra disparar la eficacia de lenguajes de código, pero estos sistemas no reemplazarán a los profesionales, según los expertos.<a href="https://elpais.com/tecnologia/2023-06-09/supone-chatgpt-el-fin-de-los-programadores-los-hara-mas-eficientes-en-lugar-de-reemplazarlos.html">ir al articulo</a></p>
+        </article>
+        <article>
+            <div class="data">
+                <span>fecha:7 dic. 2023 </span>
+                <span>Fuente: COMPUTER HOY</span>
+            </div>
+            <h4>
+                <a href="#">Los 7 lenguajes que triunfarán en 2024</a>
+            </h4>
+            <p>Para aquellos que son unos fanáticos del mundo de la programación o que simplemente se dedican y trabajan con estas herramientas, siempre deben estar al día en cuanto a conocimientos se refiere y nunca dejar de innovar y aprender lenguajes de programación si no quieres quedarse rezagados.
+            <a href="https://computerhoy.com/tecnologia/7-lenguajes-programacion-van-triunfar-2024-1346694">ir al articulo</a></p>
+        </article>
+        <article>
+            <div class="data">
+                <span>fecha: 8 Enero, 2024</span>
+                <span>Fuente: CNN</span>
+            </div>
+            <h4>
+                <a href="#">¿Qué esperar del CES 2024? Inteligencia artificial y más inteligencia artificial</a>
+            </h4>
+            <p>"Quizá la pregunta que hay que hacerse es qué cosas no tocarán la IA este año", dijo Dipanjan Chatterjee, analista principal de Forrester. "El ChatGPT ha alimentado tal frenesí en el último año que las empresas sienten que deben subirse al tren de la IA, aunque no tengan ni idea de adónde va".<a href="https://cnnespanol.cnn.com/2024/01/08/que-esperar-ces-2024-ia-ia-mas-ia-trax/">ir al articulo</a></p>
+        </article>
+        <article>
+            <div class="data">
+                <span>fecha: 19 MAY 2022</span>
+                <span>Fuente: EL PAÍS</span>
+            </div>
+            <h4>
+                <a href="#">¿A qué edad hay que aprender a programar?</a>
+            </h4>
+            <p>Ya en la educación primaria, desde los 6 años, es posible aprender y manejar un lenguaje de programación,<a href="https://elpais.com/tecnologia/2022-05-20/a-que-edad-hay-que-aprender-a-programar.html">ir al articulo</a></p>
+        </article>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
